@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Cyan-Black: hsl(179, 62%, 33%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 'Karla';
+}
+
+.card{
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50rem;
+    height: 50rem;
+
+    background-color: var(--Light-Gray);
+}
+
+.card-info{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.card-price{
+    background-color: var(--Cyan-Black);
+
+    width: 25rem;
+    height: 25rem;
+}
+
+.card-whyus{
+    background-color: var(--Cyan);
+
+    width: 25rem;
+    height: 25rem;
+}
